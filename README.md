@@ -8,13 +8,13 @@ Language: Java
 
 Library: JSoup
 
-Usage:
+Note:
 
 1. Keep the URL Files in urls folder : Since different Car Models can have multiple urls that are needed to be crawled.
 ..* Sample URL files for Nissan Altima and Honda_Civic are available
 2. Create Reviews Folder : This is where crawled reviews will be stored. FileName will be same as that given in the urls folder.
 ..* Sample Review files will be available in this folder.
-
+3. While running EdmundsCrawler, if Proxy Authenication Issue comes up. Insert the proxy in the main method of EdmundsCrawler.java
 
 
 
